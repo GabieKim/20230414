@@ -1,6 +1,6 @@
 #pragma once
 #include "Item.h"
-#include "Inventroy.h"
+#include "Inventory.h"
 
 class FCharacter
 {

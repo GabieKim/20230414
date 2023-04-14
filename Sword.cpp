@@ -1,8 +1,8 @@
 #include "Sword.h"
 
 FSword::FSword()
+	: FItem("°Ë")
 {
-	Name = "°Ë";
 }
 
 FSword::~FSword()

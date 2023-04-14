@@ -1,14 +1,13 @@
 #pragma once
-#include <string>
-
+#include<string>
 
 class FItem
 {
 public:
-	FItem();
+	FItem(std::string NewName);
 	virtual~FItem();
 
-	std::string GetName() { return Name; }
+	std::string GetName()const { return Name; }
 
 protected:
 	std::string Name;

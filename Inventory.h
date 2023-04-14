@@ -5,11 +5,11 @@
 #include "Beverage.h"
 #include "Bread.h"
 
-class FInventroy
+class FInventory
 {
 public:
-	FInventroy();
-	~FInventroy();
+	FInventory();
+	~FInventory();
 
 	void Put(const class FItem* Resource);
 

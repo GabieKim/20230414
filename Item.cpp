@@ -1,7 +1,11 @@
 #include "Item.h"
+#include<iostream>
 
-FItem::FItem()
+
+FItem::FItem(std::string NewName)
+	: Name(NewName)
 {
+	std::cout << Name << std::endl;
 }
 
 FItem::~FItem()

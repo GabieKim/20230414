@@ -1,8 +1,9 @@
 #include "Bread.h"
 
 FBread::FBread()
+	: FItem("»§")
 {
-	Name = "»§";
+	
 }
 
 FBread::~FBread()

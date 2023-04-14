@@ -1,8 +1,8 @@
 #include "Beverage.h"
 
 FBeverage::FBeverage()
+	: FItem("음료수")
 {
-	Name = "음료수";
 }
 
 FBeverage::~FBeverage()

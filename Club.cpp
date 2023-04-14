@@ -1,8 +1,8 @@
 #include "Club.h"
 
 FClub::FClub()
+	: FItem("¸שµÕÀÌ")
 {
-	Name = "¸שµÕÀÌ";
 }
 
 FClub::~FClub()
